@@ -1,0 +1,10 @@
+scp ./u  root@de61:/home/
+scp ./u  root@de62:/home/
+scp ./u  root@de63:/home/
+scp ./u  root@de64:/home/
+scp ./u  root@de66:/home/
+scp ./u  root@de68:/home/
+scp ./u  root@de69:/home/
+scp ./u  root@de71:/home/
+scp ./u  root@de74:/home/
+scp ./u  root@de75:/home/

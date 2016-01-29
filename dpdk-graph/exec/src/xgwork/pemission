@@ -1,0 +1,12 @@
+#ssh-keygen -t rsa
+scp /root/.ssh/id_rsa.pub  root@de61:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de62:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de63:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de64:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de66:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de68:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de69:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de71:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de74:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de75:/root/.ssh/authorized_keys
+scp /root/.ssh/id_rsa.pub  root@de77:/root/.ssh/authorized_keys

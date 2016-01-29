@@ -1,0 +1,14 @@
+---- xp_wcl_next Matches (15 in 2 files) ----
+Xdrrdma_sizeof.c (src):	struct clist	**xp_wcl_next;	/* location to place/find next chunk */
+Xdrrdma_sizeof.c (src):			*(xdrp->xp_wcl_next) = cle;
+Xdrrdma_sizeof.c (src):			xdrp->xp_wcl_next = &(cle->c_next);
+Xdrrdma_sizeof.c (src):	xdrp->xp_wcl_next = &(xdrp->xp_wcl);
+Xdr_rdma.c (src):	struct clist	**xp_wcl_next;	/* location to place/find next chunk */
+Xdr_rdma.c (src):		xdrp->xp_wcl_next = &(cle->c_next);
+Xdr_rdma.c (src):		xdrp->xp_wcl_next = &(xdrp->xp_wcl);
+Xdr_rdma.c (src):		xdrp->xp_wcl_next = &(xdrp->xp_wcl);
+Xdr_rdma.c (src):	struct clist	*wcle = *(xdrp->xp_wcl_next);
+Xdr_rdma.c (src):	struct clist	*wcls = *(xdrp->xp_wcl_next);
+Xdr_rdma.c (src):				xdrp->xp_wcl_next = &wcle->c_next;
+Xdr_rdma.c (src):		struct clist	*cle = *(xdrp->xp_wcl_next);
+Xdr_rdma.c (src):		xdrp->xp_wcl_next = &(cle->c_next);

@@ -1,0 +1,8 @@
+chmod +x configure
+./configure
+make
+make install
+mv /sbin/portmap /sbin/portmap.sav
+ln -s /usr/bin/rpcbind /sbin/portmap
+mv /usr/sbin/rpcinfo /usr/sbin/rpcinfo.sav
+ln -s /usr/bin/rpcinfo /usr/sbin/rpcinfo

@@ -1,0 +1,8 @@
+---- mt_mutex Matches (9 in 3 files) ----
+Stub_server.c:extern pthread_mutex_t mt_mutex;
+Stub_server.c:	pthread_mutex_lock(&mt_mutex);
+Stub_server.c:	pthread_mutex_unlock(&mt_mutex);
+Stub_server.c:	pthread_mutex_lock(&mt_mutex);
+Stub_server.c:	pthread_mutex_unlock(&mt_mutex);
+Stub_svc.c:pthread_mutex_t mt_mutex;
+Stub_svc.c:	pthread_mutex_init( &mt_mutex, NULL );

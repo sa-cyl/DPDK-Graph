@@ -1,0 +1,59 @@
+scp bin/example_apps/pagerank root@de09:/fgraph/bin
+scp bin/example_apps/sssp root@de09:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de09:/fgraph/bin
+scp bin/example_apps/communitydetection root@de09:/fgraph/bin
+
+scp bin/example_apps/pagerank root@ca46:/fgraph/bin
+scp bin/example_apps/sssp root@ca46:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@ca46:/fgraph/bin
+scp bin/example_apps/communitydetection root@ca46:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de69:/fgraph/bin
+scp bin/example_apps/sssp root@de69:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de69:/fgraph/bin
+scp bin/example_apps/communitydetection root@de69:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de74:/fgraph/bin
+scp bin/example_apps/sssp root@de74:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de74:/fgraph/bin
+scp bin/example_apps/communitydetection root@de74:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de75:/fgraph/bin
+scp bin/example_apps/sssp root@de75:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de75:/fgraph/bin
+scp bin/example_apps/communitydetection root@de75:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de76:/fgraph/bin
+scp bin/example_apps/sssp root@de76:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de76:/fgraph/bin
+scp bin/example_apps/communitydetection root@de76:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de77:/fgraph/bin
+scp bin/example_apps/sssp root@de77:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de77:/fgraph/bin
+scp bin/example_apps/communitydetection root@de77:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de78:/fgraph/bin
+scp bin/example_apps/sssp root@de78:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de78:/fgraph/bin
+scp bin/example_apps/communitydetection root@de78:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de79:/fgraph/bin
+scp bin/example_apps/sssp root@de79:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de79:/fgraph/bin
+scp bin/example_apps/communitydetection root@de79:/fgraph/bin
+
+scp bin/example_apps/pagerank root@de82:/fgraph/bin
+scp bin/example_apps/sssp root@de82:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@de82:/fgraph/bin
+scp bin/example_apps/communitydetection root@de82:/fgraph/bin
+
+scp bin/example_apps/pagerank root@CA47:/fgraph/bin
+scp bin/example_apps/sssp root@CA47:/fgraph/bin
+scp bin/example_apps/connectedcomponents root@CA47:/fgraph/bin
+scp bin/example_apps/communitydetection root@CA47:/fgraph/bin
+
+scp bin/example_apps/pagerank /fgraph/bin
+scp bin/example_apps/sssp /fgraph/bin
+scp bin/example_apps/connectedcomponents /fgraph/bin
+scp bin/example_apps/communitydetection /fgraph/bin

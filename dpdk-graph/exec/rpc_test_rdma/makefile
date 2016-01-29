@@ -1,0 +1,37 @@
+#
+#Makefile for rpc based client/server pair for Comp413 ipc
+# performance project.  Also to make remote date example.
+#
+# John Hine 19 March 2007
+
+
+#export LD_LIBRARY_PATH=/home/fql/libtirpc-0.2.1-1-x86_64/usr/lib:$LD_LIBRARY_PATH
+#export C_INCLUDE_PATH=/home/fql/libtirpc-0.2.1-1-x86_64/usr/include/tirpc:$C_INCLUDE_PATH
+
+
+ #LPATH = -lrpcsvc -lnsl  -lpthread     # Use for Sun only
+LPATH =                     # Use for all others.
+
+LDLIB = -L/usr/lib -ltirpc -lpthread 
+#LDLIB = 
+INCLUDE = -I/usr/include/tirpc/
+#INCLUDE =
+
+# Set flags to produce a foreground server sufficient for debuging
+# and project
+CFLAGS += -g -lrt -DRPC_SVC_FG
+
+# -b required as we do not have transport independent rpc
+all: stub_client stub_server
+
+#stub.h stub_clnt.c stub_svc.c stub_xdr.c: stub.x
+#	rpcgen -b -C date.x
+
+stub_client: stub_client.c stub_clnt.c stub_xdr.c stub.h
+	gcc $(CFLAGS) $(LPATH) stub_client.c stub_clnt.c stub_xdr.c -o stub_client $(LDLIB) $(INCLUDE)
+
+stub_server: stub_server.c stub_svc.c stub.h
+	gcc $(CFLAGS) $(LPATH) stub_server.c stub_svc.c stub_xdr.c -o stub_server $(LDLIB) $(INCLUDE)
+
+clean cleanup:
+	rm -f stub_client stub_server
